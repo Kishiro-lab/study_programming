@@ -1,8 +1,34 @@
 .content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 0rem;
   min-height: 100vh;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.content main {
+  flex: 1;
+  min-height: 100vh;
+  background-color: aliceblue;
+  max-width: 812px;
+  width: 100%;
+  background-color: aliceblue;
+  max-width: 812px;
+  padding: 20px 64px;
+  border-radius: 16px;
+}
+
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+  background-color: aliceblue;
+  max-width: 290px;
+  width: 100%;
+  padding: 20px 20px;
+  margin-left: 40px;
+  border-radius: 16px;
 }

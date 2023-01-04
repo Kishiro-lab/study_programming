@@ -5,7 +5,8 @@ export const Content = () => {
     <div className={classes.content}>
 
     <main>
-      ここはコンテンツ 
+      <p>ここはメイン</p>
+      
 
         
     </main>
