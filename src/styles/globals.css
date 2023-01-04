@@ -103,6 +103,10 @@ a {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
+  background-color: rgb(226, 226, 223);
+  padding: 20px;
+  font-size: 0.9rem;
+  border-radius: 8px;
 }
 
 
