@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import classes from "components/Header/Header.module.css"
+import classes from "src/components/Header/Header.module.css"
 
 
 export const Header = () => {

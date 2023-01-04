@@ -1,4 +1,4 @@
-import classes from 'components/Content/Content.module.css'
+import classes from 'src/components/Content/Content.module.css'
 
 export const Content = () => {
   return(

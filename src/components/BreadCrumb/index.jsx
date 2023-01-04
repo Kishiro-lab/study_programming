@@ -1,4 +1,4 @@
-import classes from "components/BreadCrumb/Bread.module.css"
+import classes from "src/components/BreadCrumb/Bread.module.css"
 
 export const Bread = () => {
   return(
