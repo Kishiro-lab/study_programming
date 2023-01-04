@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Python</title>
       </Head>
       
       <Header/>
       <Bread/>
       <Content>
-        <h1>Home</h1>
+        <h1>Python index</h1>
       </Content>
       <Footer/>
       
