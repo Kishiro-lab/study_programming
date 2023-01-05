@@ -1,0 +1,17 @@
+.title {
+  background-color: lightblue;
+  padding:10px;
+  font-weight:bold;
+}
+
+.title:hover {
+  background-color: rgb(192, 239, 255);
+  cursor: pointer;
+}
+
+.content {
+  background-color: rgb(193, 220, 220);
+  padding: 30px 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+

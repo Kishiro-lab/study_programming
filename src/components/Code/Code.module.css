@@ -1,14 +1,15 @@
 
 .code {
   margin: 20px 0px;
+  background-color:  rgb(233, 226, 210);
+  border-radius: 8px 8px 8px 8px;
+  padding-top: 4px;
+  
 }
 
 .title {
-  background-color:  rgb(226, 226, 223);
-  font-family: "Menlo", "Consolas", "游ゴシック", 'DejaVu Sans Mono', monospace;
+  font-family: "Arial", "游ゴシック", 'Helvetica Neue', "Hiragino Sans", "sans-serif";
   font-weight: bold;
-  padding: 8px 30px 16px 30px;
+  padding: 0px 20px 0px 20px;
   vertical-align: text-bottom;
-  border-radius: 8px 8px 0px 0px;
-  margin-top: 20px;
 }
