@@ -1,3 +1,7 @@
+.toggle {
+  margin: 30px 0px;
+}
+
 .title {
   background-color: lightblue;
   padding:10px;
@@ -10,7 +14,7 @@
 }
 
 .content {
-  background-color: rgb(193, 220, 220);
+  background-color: rgb(203, 231, 231);
   padding: 30px 20px;
   border-radius: 0px 0px 20px 20px;
 }

@@ -30,3 +30,13 @@
   margin-left: 40px;
   border-radius: 16px;
 }
+
+@media (max-width: 1030px) {
+  .sidebar {
+    flex: 0;
+    display: none;
+  }
+  .content {
+    justify-content: center;
+  }
+}
