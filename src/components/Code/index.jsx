@@ -47,6 +47,7 @@ export const Code = (props) => {
     </span>
     <button onClick={handleClick}>click me</button>
     <pre><code>
+    
       {props.children}
     </code></pre>
     </div>

@@ -21,7 +21,10 @@ export default function Home() {
       <Content>
         <h1>python study1</h1>
         <h2>正規表現</h2>
+
         <p>
+          preタグを使えないから、しばらくはこのブログは更新しないでおこう。
+          いずれ、もっと使いやすくなる。今はもっと学びやすいところから学ぶ。
           次の標準ライブラリをインポートすることで正規表現を使える。
         </p>      
         <Code title={"インポート"}>
@@ -33,8 +36,8 @@ export default function Home() {
         </p>
         <Code title={"コンテンツ"}>
               content = """<br /> 
-              name: kishiro<br /> 
-              address: kishirolab@gmail.com<br /> 
+                  name: kishiro<br /> 
+                  address: kishirolab@gmail.com<br /> 
               address: kishirolab2@gmail.com<br /> 
               url: https://japanese-rooster.com/<br /> 
               """<br /> 
@@ -62,8 +65,11 @@ export default function Home() {
               address: kishirolab2@gmail.com<br />
               url: https://japanese-rooster.com/
         </Code>
+              
           Ipsa repudiandae quisquam cupiditate fuga, tenetur qui nulla unde totam hic quasi at expedita excepturi cum rem quam. Quis labore sequi voluptatem provident, obcaecati praesentium laborum beatae facilis. Facere, tempore.</p>
         </Toggle>
+        babelがないからpreタグが使えなかったのかも。
+        yarn add -D @babel/core @babel/preset-react babel-loader
           
         <Toggle title="こんにちは！">
         <p>
