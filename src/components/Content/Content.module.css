@@ -15,7 +15,7 @@
   min-height: 100vh;
   max-width: 812px;
   width: 100%;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   max-width: 812px;
   padding: 20px 64px;
   border-radius: 16px;
@@ -24,7 +24,7 @@
 .sidebar {
   flex: 1;
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   max-width: 290px;
   padding: 20px 20px;
   margin-left: 40px;

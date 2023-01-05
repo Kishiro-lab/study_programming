@@ -104,11 +104,12 @@ a {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  background-color: rgb(226, 226, 223);
+  background-color:  rgb(231, 216, 190);
+  
   padding: 20px;
   font-size: 0.9rem;
   line-height: 1.2rem;
-  border-radius: 0px 8px 8px 8px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 code {

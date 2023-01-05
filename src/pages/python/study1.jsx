@@ -15,19 +15,15 @@ export default function Home() {
     <>
       <Head>
         <title>Python Study1</title>
-      </Head>
-      
+      </Head>     
       <Header/>
       <Bread/>
       <Content>
         <h1>python study1</h1>
-        
         <h2>正規表現</h2>
         <p>
           次の標準ライブラリをインポートすることで正規表現を使える。
-        </p>
-
-        
+        </p>      
         <Code title={"インポート"}>
         import re
         </Code>
@@ -35,7 +31,6 @@ export default function Home() {
           変数に格納後、出力してみる。<br />
           quotation３つで囲むことで、改行しても大丈夫。
         </p>
-
         <Code title={"コンテンツ"}>
               content = """<br /> 
               name: kishiro<br /> 
@@ -69,11 +64,7 @@ export default function Home() {
         </Code>
           Ipsa repudiandae quisquam cupiditate fuga, tenetur qui nulla unde totam hic quasi at expedita excepturi cum rem quam. Quis labore sequi voluptatem provident, obcaecati praesentium laborum beatae facilis. Facere, tempore.</p>
         </Toggle>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam, doloribus nesciunt temporibus inventore quasi commodi quaerat rem sunt ipsum officiis explicabo eligendi odio autem, voluptate hic. Corrupti, earum quo!
-            Quam qui ex commodi repellendus. Iusto nulla quibusdam odit, numquam velit voluptatibus vel hic libero officiis recusandae, error omnis obcaecati aliquam explicabo dolorem consequuntur eum corrupti! Autem fuga voluptas dolores.
-            Cupiditate consequuntur possimus iusto sequi debitis praesentium, maiores eius repellendus repudiandae accusantium dolorem laboriosam error soluta, voluptates nesciunt temporibus sapiente, ut molestias sint unde aspernatur? Molestias deserunt sint harum enim.
-          </p>
+          
         <Toggle title="こんにちは！">
         <p>
           Pariatur impedit id rem illo, aperiam suscipit soluta incidunt optio, saepe quod iusto ratione, est minima placeat. Velit, laudantium. Aut qui facilis sequi animi iste laboriosam eius id quae eaque.
@@ -84,24 +75,6 @@ export default function Home() {
         </p>
 
         </Toggle>
-
-
-
-
-
-          Sit sint, reiciendis eos explicabo, fuga totam corrupti molestiae qui consequatur quam error debitis incidunt unde! Id fugiat eius quod obcaecati cumque consectetur placeat, eligendi iusto numquam natus, dolores animi.
-          Maiores beatae numquam nulla vero omnis aliquam laboriosam quis tenetur, eos et aperiam impedit consequatur recusandae, natus ipsa ad dolorem? Perspiciatis facilis perferendis voluptatum aliquam officiis. Sequi quod praesentium nostrum.
-          Eos cum reiciendis amet eligendi cupiditate voluptatem quaerat suscipit, architecto natus, sed eaque voluptatibus. Nesciunt, magni deleniti sit necessitatibus aut odit voluptates minus quia, eaque aliquid vel a quis voluptatum?
-          Esse reiciendis dolor voluptas maiores, fugit possimus. Veniam totam id iste cum, nobis doloribus sed perferendis doloremque tempore magnam dolor quidem nisi recusandae. Necessitatibus in nulla numquam autem, libero vero!
-          Omnis similique quidem asperiores nemo ducimus earum eum dicta ipsa temporibus, tempore ullam praesentium vel est hic, assumenda fugit placeat, autem esse laudantium iusto delectus impedit! A quas quo provident?
-          Modi laboriosam laborum aliquid ducimus iusto tempora magni tenetur, quos, eaque doloribus voluptatibus quisquam atque reiciendis minus consequuntur pariatur cum ab similique. Ex explicabo et, quisquam praesentium dicta quaerat possimus.
-          Adipisci atque earum ab laudantium eos repellat distinctio ea ipsa aperiam vitae saepe sit, reprehenderit minus autem placeat quisquam impedit libero enim, facilis non molestias fugiat iusto. Nulla, odit quod?
-          Doloremque commodi eveniet maxime aspernatur excepturi itaque consequatur non! Quos eius nihil, tempora amet quibusdam nostrum ea eveniet laboriosam atque magni iusto mollitia facere ipsa velit aliquam? Odio, reprehenderit similique!
-          Molestias deleniti id delectus voluptatum corporis exercitationem! Quos laboriosam, quisquam dolores accusantium est repudiandae amet culpa optio! Quos consequuntur, nesciunt totam odit deleniti corporis modi at cupiditate itaque delectus dolor!
-          Quasi, ducimus hic? Aperiam tempora aut perferendis, sunt ipsam aspernatur odit laborum modi et. Amet consectetur ipsum consequuntur inventore magni aspernatur fugit aut aperiam, ullam, eos, harum nam voluptatum ipsa.
-          Voluptas quia, ratione minima aliquid quis alias. Illum ipsam cum adipisci recusandae temporibus quis, quia commodi debitis quaerat beatae tempora fuga perspiciatis exercitationem hic sed aliquam accusamus libero mollitia. Quae.
-          Et, doloribus dignissimos natus voluptates aspernatur iure facere assumenda, ipsum numquam qui dolores! Officia non beatae fugiat maxime nobis pariatur corrupti voluptatum saepe tenetur illo placeat, modi voluptatibus accusamus iste?
-        
         
       </Content>
       <Footer/>
