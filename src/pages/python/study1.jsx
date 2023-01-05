@@ -4,6 +4,7 @@ import { Bread } from 'src/components/BreadCrumb'
 import { Content } from 'src/components/Content'
 import { Footer } from 'src/components/Footer'
 import { Header } from 'src/components/Header'
+import { Code } from 'src/components/Code'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,20 +20,45 @@ export default function Home() {
       <Bread/>
       <Content>
         <h1>python study1</h1>
-        <pre>
-          <code>
-            &lt;h1&gt;コードの練習kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br />
-            aiueo&lt;/h1&gt;
-          </code>
-        </pre>
+        
+          
+
+        
+        <h2>正規表現</h2>
         <p>
-          完全にHtmlで書く場合、改行したり、段落を分けたりするのが面倒。
-        </p><br />
+          正規表現を使うには、次の標準ライブラリをインポートする必要がある。
+        </p>
+
+        
+        <Code title={"import"}>
+        import re
+        </Code>
+
+        <Code title={"content"}>
+              content = """<br /> 
+              name: kishiro<br /> 
+              address: kishirolab@gmail.com<br /> 
+              address: kishirolab2@gmail.com<br /> 
+              url: https://japanese-rooster.com/<br /> 
+              """<br /> 
+              print(content)<br />
+              # output<br />
+              name: kishiro<br />
+              address: kishirolab@gmail.com<br />
+              address: kishirolab2@gmail.com<br />
+              url: https://japanese-rooster.com/
+        </Code>
+        <p>
+          3つの
+        </p>
+
+
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam, doloribus nesciunt temporibus inventore quasi commodi quaerat rem sunt ipsum officiis explicabo eligendi odio autem, voluptate hic. Corrupti, earum quo!
             Quam qui ex commodi repellendus. Iusto nulla quibusdam odit, numquam velit voluptatibus vel hic libero officiis recusandae, error omnis obcaecati aliquam explicabo dolorem consequuntur eum corrupti! Autem fuga voluptas dolores.
             Cupiditate consequuntur possimus iusto sequi debitis praesentium, maiores eius repellendus repudiandae accusantium dolorem laboriosam error soluta, voluptates nesciunt temporibus sapiente, ut molestias sint unde aspernatur? Molestias deserunt sint harum enim.
-          </p><br />
+          </p>
           Pariatur impedit id rem illo, aperiam suscipit soluta incidunt optio, saepe quod iusto ratione, est minima placeat. Velit, laudantium. Aut qui facilis sequi animi iste laboriosam eius id quae eaque.
           Quaerat laborum fugit obcaecati delectus minus deserunt praesentium rem voluptas aspernatur nobis velit dolorum ab ipsa possimus esse a tempore, magni veritatis quos sed animi. Tenetur soluta ad enim cum.
           Consectetur cum similique culpa molestiae sunt magnam impedit enim, vel, mollitia maiores esse expedita? Animi eius optio et eos labore, nam iste quidem maiores rerum fugiat accusamus dolorem, assumenda cum!

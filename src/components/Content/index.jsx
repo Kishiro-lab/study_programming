@@ -7,10 +7,18 @@ export const Content = (props) => {
       {props.children}
     </main>
       <div className={classes.sidebar}>
-        ここはサイドバー
+        <p>
+          ここにプロフィールなど<br />
+          ウィンドウが小さくなる時、サイドバーはつぶさずメインの方をつぶしたい。<br />
+          ある程度小さくなったら、サイドバーは非表示。<br />
+          改行のショートカットが欲しい。&lt;br /&gt;はいちいち全角半角を入れ替えないといけないから面倒。
+        </p>
+        <p>
+        ここはサイドバー<br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet ea, vitae minus architecto asperiores reprehenderit! Facere, accusantium illum fuga atque doloremque excepturi rem molestiae magni aspernatur, assumenda deleniti? Impedit?
         Nisi iste soluta reprehenderit laboriosam iure doloribus minima suscipit? Expedita numquam quod nulla, fugit corporis vitae sequi facere doloremque, nesciunt rerum possimus iure? Iste nostrum mollitia accusamus, sit quisquam explicabo.
         Accusantium blanditiis minima facilis nisi perspiciatis, nihil alias sapiente modi explicabo eligendi repudiandae eum cumque eaque similique quo iure distinctio ullam ipsa autem? Alias molestias illo deleniti nesciunt qui aperiam.
+        </p>
       </div>
     </div>
   )

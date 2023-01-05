@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import classes from "src/components/Header/Header.module.css"
 
-
 export const Header = () => {
   return(
     <header className={classes.header}>

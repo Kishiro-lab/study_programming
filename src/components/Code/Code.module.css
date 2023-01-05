@@ -1,0 +1,14 @@
+
+.code {
+  margin: 20px 0px;
+}
+
+.title {
+  background-color:  rgb(226, 226, 223);
+  font-family: "Menlo", "Consolas", "游ゴシック", 'DejaVu Sans Mono', monospace;
+  font-weight: bold;
+  padding: 8px 30px 16px 30px;
+  vertical-align: text-bottom;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 20px;
+}
